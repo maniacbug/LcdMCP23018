@@ -3,6 +3,13 @@
 #include <LiquidCrystal2.h>
 #include <LcdMCP23018.h>
 
+/**
+ * @file lcdprint.pde
+ *
+ * Simple example to print text to an LCD controlled by
+ * MCP23018 i/o extender.
+ */
+
 MCP23018 pex(7);
 LcdMCP23018 hwif(&pex);
 LiquidCrystal2 lcd(&hwif);

@@ -1,4 +1,6 @@
+docs/
 output/
 *.o
 .*.swp
+*.orig
 CVS/
